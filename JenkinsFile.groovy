@@ -7,9 +7,9 @@ pipeline {
 	        MAJOR = '1'
 	        MINOR = '0'
 	        //Orchestrator Services
-	        UIPATH_ORCH_URL = "https://staging.uipath.com/"
-	        UIPATH_ORCH_LOGICAL_NAME = "emeaeese"
-	        UIPATH_ORCH_TENANT_NAME = "LabAuro"
+	        UIPATH_ORCH_URL = "https://cloud.uipath.com/"
+	        UIPATH_ORCH_LOGICAL_NAME = "dilipejzisxn"
+	        UIPATH_ORCH_TENANT_NAME = "DefaultTenant"
 	        UIPATH_ORCH_FOLDER_NAME = "Shared"
 			UIPATH_PROCESS_NAME = "JenkinsTestProcess"
 	    }
