@@ -83,7 +83,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="619.9999999999999,884.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="619.9999999999999,778.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Message" />
       <Variable x:TypeArguments="x:String" Name="NewMessage" />
@@ -111,6 +111,6 @@
         <InArgument x:TypeArguments="x:String">[" Jenkins"]</InArgument>
       </uta:VerifyExpressionWithOperator.SecondExpression>
     </uta:VerifyExpressionWithOperator>
-    <uta:VerifyTextEquivalence Differences="{x:Null}" Result="{x:Null}" Rules="{x:Null}" RulesList="{x:Null}" WordSeparators="{x:Null}" BaselineText="[NewMessage]" ComparisonType="Line" ContinueOnFailure="True" DisplayName="Verify Text Equivalence " sap:VirtualizedContainerService.HintSize="434,220.66666666666666" sap2010:WorkflowViewState.IdRef="VerifyTextEquivalence_1" OutputFilePath="[string.Format(&quot;&quot;&quot;&quot;&quot;C:\Users\aurora.diez.herrero\OneDrive - UiPath\Documents\UiPath\JenkinsTestProcess\output&quot;&quot;&quot;)]" TargetText="source control" />
+    <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[Message.Contains(&quot;source control&quot;)]" sap:VirtualizedContainerService.HintSize="434,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
   </Sequence>
 </Activity>
